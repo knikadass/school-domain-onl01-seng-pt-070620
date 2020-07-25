@@ -26,9 +26,9 @@ class School
   sorted_hash
   end
   
-  def grade 
-    
-     @school.add_student
+  def grade(grade_number)
+    roster[grade_number]
+ 
     
  end
 end
